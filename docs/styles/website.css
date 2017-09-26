@@ -1,6 +1,15 @@
+/* no borders around android vs ios code */
 .api-method .api-method-code {
   border-top: none;
   border-bottom: none;
+}
+
+/* header dark styling */
+.book-header {
+  background-color: #2D3134;
+}
+.book-header h1 a:hover {
+  color: #ccc;
 }
 
 /** To make block code take all page width
